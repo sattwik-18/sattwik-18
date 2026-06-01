@@ -37,11 +37,10 @@ jobs:
       # Compile the 3D Isometric Contribution Grid SVGs
       - name: Compile 3D Isometric Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          # Generates files under profile-3d-contrib/
+        # Generates files under profile-3d-contrib/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
       # Compile and cache static custom themed stats cards
       - name: Compile and Cache Static Stats Cards
