@@ -184,17 +184,17 @@
   <tr style="border: none; background: transparent;">
     <!-- Column 1: Custom Themed GitHub Stats -->
     <td width="50%" align="center" valign="top" style="border: none; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=sattwik-18&show_icons=true&bg_color=050811&title_color=00F0FF&text_color=E2E8F0&icon_color=BD00FF&border_color=1E293B&hide_border=false&cache_bust=4" width="100%" style="max-width: 400px;" alt="Sattwik Datta GitHub Stats" />
+      <img src="https://github-stats-extended.vercel.app/api?username=sattwik-18&show_icons=true&bg_color=050811&title_color=00F0FF&text_color=E2E8F0&icon_color=BD00FF&border_color=1E293B&hide_border=false&cache_bust=5" width="100%" style="max-width: 400px;" alt="Sattwik Datta GitHub Stats" />
     </td>
     <!-- Column 2: Custom Themed Streak Stats -->
     <td width="50%" align="center" valign="top" style="border: none; padding: 10px;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sattwik-18&background=050811&title=00F0FF&text=E2E8F0&sideNums=BD00FF&sideLabels=64748B&ring=00F0FF&fire=BD00FF&border=1E293B&hide_border=false&currStreakNum=00F0FF&cache_bust=4" width="100%" style="max-width: 400px;" alt="Sattwik Datta Streak Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sattwik-18&background=050811&title=00F0FF&text=E2E8F0&sideNums=BD00FF&sideLabels=64748B&ring=00F0FF&fire=BD00FF&border=1E293B&hide_border=false&currStreakNum=00F0FF&cache_bust=5" width="100%" style="max-width: 400px;" alt="Sattwik Datta Streak Stats" />
     </td>
   </tr>
   <tr style="border: none; background: transparent;">
     <!-- Top Languages -->
     <td colspan="2" align="center" valign="top" style="border: none; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sattwik-18&layout=compact&bg_color=050811&title_color=00F0FF&text_color=E2E8F0&border_color=1E293B&cache_bust=4" width="100%" style="max-width: 600px;" alt="Top Languages Stats" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=sattwik-18&layout=compact&bg_color=050811&title_color=00F0FF&text_color=E2E8F0&border_color=1E293B&cache_bust=5" width="100%" style="max-width: 600px;" alt="Top Languages Stats" />
     </td>
   </tr>
 </table>
