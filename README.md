@@ -178,6 +178,19 @@
 
 ---
 
+## 🕹️ ACTIVE NEURAL NET WORKLOADS (SELF-RUNNING DECK-INVADERS)
+
+<p align="center">
+  <!-- Self-running hardware-accelerated CSS retro space invader game -->
+  <img src="assets/arcade.svg" width="100%" alt="Deck Invaders Neural Net Defense" />
+</p>
+
+<p align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Telemetry Divider" />
+</p>
+
+---
+
 ## 📈 SYSTEM ANALYTICS & REPOSITORY STATS
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; border: none; background: transparent;">
@@ -225,9 +238,10 @@
 
 ## 📥 SECURE CONNECTION SUBSYSTEM
 
-```bash
-guest@sattwik-18:~$ connect --secure --active-channels
-```
+<p align="center">
+  <!-- Custom self-animating contact coordinates terminal -->
+  <img src="assets/contact-terminal.svg" width="100%" alt="Secure Connection Hub Console" />
+</p>
 
 <table border="0" cellpadding="10" cellspacing="0" width="100%" style="border-collapse: collapse; border: 1px solid #1E293B; border-radius: 6px; background-color: #050811;">
   <thead>
@@ -239,14 +253,19 @@ guest@sattwik-18:~$ connect --secure --active-channels
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid #1E293B;">
-      <td style="padding: 12px; font-family: monospace; font-size: 13px; color: #E2E8F0;">💼 <strong>LinkedIn</strong></td>
-      <td style="padding: 12px; font-family: sans-serif; font-size: 13px; color: #94A3B8;"><a href="https://linkedin.com/in/sattwik-datta" target="_blank" style="color: #00F0FF; text-decoration: none;">linkedin.com/in/sattwik-datta</a></td>
+      <td style="padding: 12px; font-family: monospace; font-size: 13px; color: #E2E8F0;">💼 <strong>LinkedIn Portal</strong></td>
+      <td style="padding: 12px; font-family: sans-serif; font-size: 13px; color: #94A3B8;"><a href="https://www.linkedin.com/in/sattwik-datta-2a70a62ab/" target="_blank" style="color: #00F0FF; text-decoration: none;">linkedin.com/in/sattwik-datta-2a70a62ab</a></td>
       <td align="right" style="padding: 12px; font-family: monospace; font-size: 13px; color: #39FF14;"><code>[ESTABLISHED]</code></td>
     </tr>
-    <tr>
-      <td style="padding: 12px; font-family: monospace; font-size: 13px; color: #E2E8F0;">📧 <strong>Email Portal</strong></td>
-      <td style="padding: 12px; font-family: sans-serif; font-size: 13px; color: #94A3B8;"><a href="mailto:sattwikdatta2@gmail.com" style="color: #BD00FF; text-decoration: none;">sattwikdatta2@gmail.com</a></td>
+    <tr style="border-bottom: 1px solid #1E293B;">
+      <td style="padding: 12px; font-family: monospace; font-size: 13px; color: #E2E8F0;">📧 <strong>Email Command</strong></td>
+      <td style="padding: 12px; font-family: sans-serif; font-size: 13px; color: #94A3B8;"><a href="mailto:sattwikdatta.6@gmail.com" style="color: #BD00FF; text-decoration: none;">sattwikdatta.6@gmail.com</a></td>
       <td align="right" style="padding: 12px; font-family: monospace; font-size: 13px; color: #39FF14;"><code>[LISTENING]</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; font-family: monospace; font-size: 13px; color: #E2E8F0;">🏆 <strong>LeetCode Engine</strong></td>
+      <td style="padding: 12px; font-family: sans-serif; font-size: 13px; color: #94A3B8;"><a href="https://leetcode.com/u/sattwik-18/" target="_blank" style="color: #39FF14; text-decoration: none;">leetcode.com/u/sattwik-18</a></td>
+      <td align="right" style="padding: 12px; font-family: monospace; font-size: 13px; color: #39FF14;"><code>[ACTIVE]</code></td>
     </tr>
   </tbody>
 </table>
