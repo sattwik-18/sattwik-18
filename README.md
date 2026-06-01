@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Flagship Premium Capsule Render Header -->
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=050811&height=200&section=header&text=SATTWIK%20DATTA&textBg=false&fontSize=46&fontColor=00F0FF&fontAlignY=42&desc=AI%20%26%20MACHINE%20LEARNING%20ENGINEER&descSize=14&descColor=BD00FF&descAlignY=64" width="100%" alt="Sattwik Datta Header" />
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=050811&height=200&section=header&text=SATTWIK+DATTA&textBg=false&fontSize=46&fontColor=00F0FF&fontAlignY=42&desc=AI+AND+MACHINE+LEARNING+ENGINEER&descSize=14&descColor=BD00FF&descAlignY=64" width="100%" alt="Sattwik Datta Header" />
 </p>
 
 <p align="center">
@@ -194,7 +194,7 @@
   <tr style="border: none; background: transparent;">
     <!-- Top Languages -->
     <td colspan="2" align="center" valign="top" style="border: none; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sattwik-18&layout=compact&bg_color=050811&title_color=00F0FF&text_color=E2E8F0&border_color=1E293B" width="100%" style="max-width: 600px;" alt="Top Languages Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sattwik-18&layout=compact&bg_color=050811&title_color=00F0FF&text_color=E2E8F0&border_color=1E293B" width="100%" style="max-width: 600px;" alt="Top Languages Stats" />
     </td>
   </tr>
 </table>
