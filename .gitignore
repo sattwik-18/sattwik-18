@@ -1,0 +1,10 @@
+# Flagship Control Center - Local Filters
+
+# Guidebooks and generative assets (local-only)
+SETUP.md
+banner_prompt.txt
+
+# Operating System metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

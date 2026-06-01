@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="100%" height="220">
+  <defs>
+    <!-- Deep obsidian card background -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="100%" stop-color="#0B132B" />
+    </linearGradient>
+
+    <!-- Neon Cyan Shadow Glow -->
+    <filter id="node-cyan-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Neon Magenta Shadow Glow -->
+    <filter id="node-magenta-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .card-border {
+      stroke: #1E293B;
+      stroke-width: 1.5;
+    }
+    .panel-header {
+      font-family: 'Fira Code', Consolas, Monaco, monospace;
+      font-size: 10px;
+      fill: #475569;
+      letter-spacing: 1px;
+    }
+    .panel-value {
+      font-family: 'Fira Code', Consolas, Monaco, monospace;
+      font-size: 11px;
+      fill: #94A3B8;
+    }
+    .highlight-cyan {
+      fill: #00F0FF;
+      font-weight: bold;
+    }
+    .highlight-magenta {
+      fill: #BD00FF;
+      font-weight: bold;
+    }
+    .highlight-green {
+      fill: #39FF14;
+      font-weight: bold;
+    }
+    .matrix-node-inactive {
+      fill: #1E293B;
+    }
+    .matrix-node-cyan {
+      fill: #00F0FF;
+      animation: cyan-pulse 1.8s infinite alternate;
+    }
+    .matrix-node-magenta {
+      fill: #BD00FF;
+      animation: magenta-pulse 2.2s infinite alternate;
+    }
+
+    @keyframes cyan-pulse {
+      0% { opacity: 0.3; }
+      100% { opacity: 1; filter: drop-shadow(0 0 3px #00F0FF); }
+    }
+    @keyframes magenta-pulse {
+      0% { opacity: 0.2; }
+      100% { opacity: 1; filter: drop-shadow(0 0 3px #BD00FF); }
+    }
+  </style>
+
+  <!-- Outer Console Frame -->
+  <rect x="2" y="2" width="356" height="216" rx="6" fill="url(#card-bg)" class="card-border" />
+
+  <!-- Subsystem Title Header -->
+  <text x="20" y="22" class="panel-header">SD-CORE-COGNITIVE-TELEMETRY</text>
+  <line x1="20" y1="28" x2="340" y2="28" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Telemetry Parameters -->
+  <text x="20" y="50" class="panel-value">HOST STATE: <tspan class="highlight-green">ONLINE</tspan></text>
+  <text x="20" y="70" class="panel-value">AI ENGINE: <tspan class="highlight-cyan">STABLE</tspan></text>
+  <text x="20" y="90" class="panel-value">TPU ALLOC: <tspan class="highlight-magenta">8-CORE ACTIVE</tspan></text>
+  <text x="20" y="110" class="panel-value">MEM UTIL: <tspan class="highlight-cyan">94.2GB / 128.0GB</tspan></text>
+  
+  <text x="20" y="145" class="panel-header">ALGORITHMIC ENGINES</text>
+  <line x1="20" y1="151" x2="180" y2="151" stroke="#1E293B" stroke-width="1" />
+  <text x="20" y="170" class="panel-value">LEETCODE CLASSIFIER: <tspan class="highlight-cyan">RUNNING</tspan></text>
+  <text x="20" y="190" class="panel-value">DS&amp;A OPTIMIZER: <tspan class="highlight-green">ACTIVE</tspan></text>
+
+  <!-- TPU Core Grid Diagnostic (Right side) -->
+  <text x="210" y="50" class="panel-header">NEURAL GRID</text>
+  
+  <!-- Row 1 -->
+  <rect x="210" y="60" width="18" height="18" rx="2" class="matrix-node-cyan" filter="url(#node-cyan-glow)" />
+  <rect x="234" y="60" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="258" y="60" width="18" height="18" rx="2" class="matrix-node-magenta" filter="url(#node-magenta-glow)" />
+  <rect x="282" y="60" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="306" y="60" width="18" height="18" rx="2" class="matrix-node-cyan" filter="url(#node-cyan-glow)" />
+
+  <!-- Row 2 -->
+  <rect x="210" y="84" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="234" y="84" width="18" height="18" rx="2" class="matrix-node-cyan" filter="url(#node-cyan-glow)" />
+  <rect x="258" y="84" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="282" y="84" width="18" height="18" rx="2" class="matrix-node-magenta" filter="url(#node-magenta-glow)" />
+  <rect x="306" y="84" width="18" height="18" rx="2" class="matrix-node-inactive" />
+
+  <!-- Row 3 -->
+  <rect x="210" y="108" width="18" height="18" rx="2" class="matrix-node-magenta" filter="url(#node-magenta-glow)" />
+  <rect x="234" y="108" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="258" y="108" width="18" height="18" rx="2" class="matrix-node-cyan" filter="url(#node-cyan-glow)" />
+  <rect x="282" y="108" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="306" y="108" width="18" height="18" rx="2" class="matrix-node-magenta" filter="url(#node-magenta-glow)" />
+
+  <!-- Row 4 -->
+  <rect x="210" y="132" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="234" y="132" width="18" height="18" rx="2" class="matrix-node-magenta" filter="url(#node-magenta-glow)" />
+  <rect x="258" y="132" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  <rect x="234" y="156" width="18" height="18" rx="2" class="matrix-node-cyan" filter="url(#node-cyan-glow)" />
+  <rect x="258" y="156" width="18" height="18" rx="2" class="matrix-node-inactive" />
+  
+  <!-- Diagnostic bar chart -->
+  <rect x="210" y="186" width="114" height="6" rx="3" fill="#1E293B" />
+  <rect x="210" y="186" width="82" height="6" rx="3" fill="#00F0FF" filter="url(#node-cyan-glow)" />
+  <text x="210" y="202" class="panel-header">LOAD STATE: 72% ACTIVE</text>
+</svg>

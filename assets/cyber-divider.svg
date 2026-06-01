@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 12" width="100%" height="12">
+  <defs>
+    <!-- Linear Neon Glow Gradient -->
+    <linearGradient id="glow-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BD00FF" />
+      <stop offset="50%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#BD00FF" />
+    </linearGradient>
+
+    <!-- Blur filter for neon glow -->
+    <filter id="neon-glow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .data-line-bg {
+      stroke: #1E293B;
+      stroke-width: 1;
+      stroke-opacity: 0.6;
+    }
+    .data-pulse {
+      stroke: url(#glow-gradient);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+      stroke-dasharray: 80 720;
+      animation: data-bus-pulse 4.5s linear infinite;
+    }
+    .terminal-bracket {
+      fill: #475569;
+    }
+    .central-node {
+      fill: #00F0FF;
+      animation: node-breathing 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes data-bus-pulse {
+      0% {
+        stroke-dashoffset: 800;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes node-breathing {
+      0% {
+        opacity: 0.4;
+        r: 2;
+      }
+      100% {
+        opacity: 1;
+        r: 3.5;
+        filter: drop-shadow(0 0 2px #00F0FF);
+      }
+    }
+  </style>
+
+  <!-- Left Cybernetic Bracket -->
+  <rect x="5" y="2" width="2" height="8" class="terminal-bracket" />
+  <rect x="7" y="5" width="6" height="2" class="terminal-bracket" />
+
+  <!-- The main data highway axis -->
+  <line x1="12" y1="6" x2="788" y2="6" class="data-line-bg" />
+
+  <!-- Animated Glowing Neon Pulse -->
+  <path d="M 12 6 L 788 6" class="data-pulse" filter="url(#neon-glow)" />
+
+  <!-- Small tech structural indicators (ticks) -->
+  <line x1="200" y1="3" x2="200" y2="9" stroke="#475569" stroke-width="1" />
+  <line x1="600" y1="3" x2="600" y2="9" stroke="#475569" stroke-width="1" />
+
+  <!-- Central pulsing micro-node -->
+  <circle cx="400" cy="6" r="2.5" class="central-node" />
+
+  <!-- Right Cybernetic Bracket -->
+  <rect x="793" y="2" width="2" height="8" class="terminal-bracket" />
+  <rect x="787" y="5" width="6" height="2" class="terminal-bracket" />
+</svg>
